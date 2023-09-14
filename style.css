@@ -20,7 +20,7 @@
 }
 
 body {
-  background: #9b0606;
+  background: #0a0909;
 }
 
 /* HEADER */
@@ -102,6 +102,10 @@ a {
   padding: 13px;
   border-radius: 1rem;
   color: white;
+}
+
+.section-info span {
+  font-weight: 800;
 }
 
 .section-img {
