@@ -137,6 +137,10 @@ a {
   width: 600px;
   height: 300px;
   border-radius: 1rem;
+  /* border: 1px solid white; */
+}
+
+.trailer:hover {
   border: 1px solid white;
 }
 
@@ -162,7 +166,24 @@ a {
   flex-direction: column;
   justify-content: center;
   border-radius: 10px;
-  height: 200px;
-  width: 150px;
+  height: 250px;
+  width: 350px;
   align-items: center;
+}
+
+.container-card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.container-card img {
+  border-radius: 100%;
+}
+
+.container-card-info p {
+  font-size: 13px;
 }
