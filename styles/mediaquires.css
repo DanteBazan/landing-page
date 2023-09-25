@@ -25,3 +25,22 @@
     max-width: 800px;
   }
 }
+/* CELUS */
+@media (max-width: 578px) {
+  .section-tree {
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .container-info-footer {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
