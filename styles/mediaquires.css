@@ -99,12 +99,6 @@
 }
 
 @media (max-width: 850px) {
-  .section-one,
-  .section-tree,
-  .secion-two {
-    border: 1px solid red;
-  }
-
   .section-one {
     width: 650px;
   }
