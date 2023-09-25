@@ -37,21 +37,21 @@
   .navbar-list {
     gap: 2 rem;
   }
-}
-.section-tree {
-  flex-direction: column;
-  gap: 2rem;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
+  .section-tree {
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
 
-.footer {
-  flex-direction: column;
-}
+  .footer {
+    flex-direction: column;
+  }
 
-.container-info-footer {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  .container-info-footer {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 }

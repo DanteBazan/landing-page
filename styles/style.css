@@ -167,6 +167,7 @@ a {
   display: flex;
   gap: 10rem;
   flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .section-tree img {
