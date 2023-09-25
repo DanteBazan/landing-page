@@ -31,11 +31,17 @@
 }
 /* CELUS */
 @media (max-width: 578px) {
+  .section-one {
+    width: 550px;
+    margin-top: 4rem;
+  }
+
   .navbar {
-    margin-right: 150px;
+    margin-right: 10px;
   }
   .navbar-list {
     gap: 2 rem;
+    font-size: 13px;
   }
   .section-tree {
     flex-direction: column;
@@ -53,5 +59,94 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+
+  .img-info {
+    width: 545px;
+  }
+
+  .img-one {
+    width: 400px;
+  }
+
+  .trailer {
+    width: 545px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .section-one {
+    flex-direction: column;
+  }
+
+  .section-info {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .container-descrp {
+    max-width: 1000px;
+  }
+
+  .footer {
+    gap: 1rem;
+  }
+
+  .img-one {
+    width: 500px;
+  }
+}
+
+@media (max-width: 850px) {
+  .section-one,
+  .section-tree,
+  .secion-two {
+    border: 1px solid red;
+  }
+
+  .section-one {
+    width: 650px;
+  }
+
+  .container-descrp p {
+    max-width: 520px;
+  }
+
+  .section-tree {
+    gap: 2rem;
+  }
+
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 446px) {
+  .section-one {
+    width: 445px;
+  }
+
+  .section-one p {
+    max-width: 320px;
+  }
+
+  .container-title {
+    text-align: center;
+  }
+
+  .img-info {
+    width: 440px;
+  }
+
+  .trailer {
+    width: 440px;
+  }
+
+  .img-one {
+    width: 435px;
   }
 }

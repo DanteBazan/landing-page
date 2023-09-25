@@ -74,10 +74,10 @@ a {
 
 .section-one {
   display: flex;
-  margin-top: 6rem;
+  margin-top: 8rem;
   gap: 8rem;
-  padding: 8rem;
-  border-radius: 2rem;
+  /* padding: 8rem; */
+  padding: 6rem 0px;
 }
 
 .section-info {
@@ -137,7 +137,6 @@ a {
 .trailer {
   width: 600px;
   height: 300px;
-  /* border: 1px solid white; */
 }
 
 .section-descrp {
@@ -146,7 +145,7 @@ a {
 
 .container-descrp p {
   font-size: 20px;
-  max-width: 1200px;
+  max-width: 1000px;
   text-align: center;
 }
 
@@ -166,7 +165,6 @@ a {
 .section-tree {
   display: flex;
   gap: 10rem;
-  flex-wrap: wrap;
   flex-direction: row;
 }
 
