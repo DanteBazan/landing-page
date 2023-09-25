@@ -24,14 +24,25 @@
   .container-descrp p {
     max-width: 800px;
   }
+
+  .section-tree {
+    width: fit-content;
+  }
 }
 /* CELUS */
 @media (max-width: 578px) {
+  .navbar {
+    margin-right: 150px;
+  }
+  .navbar-list {
+    gap: 2rem;
+  }
   .section-tree {
     flex-direction: column;
     gap: 2rem;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
   }
 
   .footer {
