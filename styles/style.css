@@ -164,6 +164,7 @@ a {
 .section-tree {
   display: flex;
   gap: 10rem;
+  flex-wrap: wrap;
 }
 
 .section-tree img {
