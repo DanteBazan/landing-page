@@ -73,7 +73,7 @@ a {
 
 .section-one {
   display: flex;
-  margin-top: 10rem;
+  margin-top: 6rem;
   gap: 8rem;
   padding: 8rem;
   border-radius: 2rem;
@@ -126,7 +126,6 @@ a {
   width: 600px;
   height: 300px;
   border-radius: 10px;
-  border: 1px solid white;
 }
 
 .section-two {
@@ -136,12 +135,7 @@ a {
 .trailer {
   width: 600px;
   height: 300px;
-  border-radius: 1rem;
   /* border: 1px solid white; */
-}
-
-.trailer:hover {
-  border: 1px solid white;
 }
 
 .section-two {
