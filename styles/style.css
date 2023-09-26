@@ -230,3 +230,21 @@ a {
   width: 700px;
   border-radius: 10px;
 }
+
+@keyframes anashe {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.img-info,
+.trailer {
+  animation-name: anashe;
+  animation-duration: 7s;
+}
