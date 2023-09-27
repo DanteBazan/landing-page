@@ -133,14 +133,15 @@
   }
 
   .img-info {
-    width: 440px;
+    width: 425px;
+    height: 200px;
   }
 
   .trailer {
-    width: 440px;
+    width: 430px;
   }
 
   .img-one {
-    width: 435px;
+    width: 420px;
   }
 }
