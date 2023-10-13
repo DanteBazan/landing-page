@@ -31,9 +31,46 @@
 }
 /* CELUS */
 @media (max-width: 578px) {
+  html,
+  body {
+    overflow-x: hidden !important;
+    width: 100% !important;
+  }
+
+  .header {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+  .navbar-list {
+    gap: 1rem;
+  }
+
+  .navbar-list a {
+    padding: 8px;
+    font-size: 10px;
+    margin-right: 40px;
+  }
+
+  ul {
+  }
+
+  .img-log {
+    width: 40px;
+    height: 40px;
+  }
+
+  .main {
+    width: 100%;
+  }
+
   .section-one {
     width: 550px;
     margin-top: 4rem;
+  }
+
+  .section-one p {
+    max-width: 20em;
   }
 
   .navbar {
@@ -63,14 +100,19 @@
 
   .img-info {
     width: 480px;
+    height: 300px;
+    object-fit: cover;
   }
 
   .img-one {
     width: 400px;
+    display: none;
   }
 
   .trailer {
     width: 480px;
+    height: 300px;
+    object-fit: cover;
   }
 }
 
@@ -95,13 +137,14 @@
 
   .img-one {
     width: 500px;
+    display: none;
   }
 }
 
 @media (max-width: 850px) {
-  .section-one {
+  /* .section-one {
     width: 650px;
-  }
+  } */
 
   .container-descrp p {
     max-width: 520px;
@@ -116,5 +159,13 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+
+  .img-info {
+    width: 500px;
+  }
+
+  .trailer {
+    width: 500px;
   }
 }
